@@ -1,0 +1,609 @@
+
+
+<!DOCTYPE html>
+<html lang="zh-CN" data-default-color-scheme=&#34;auto&#34;>
+
+
+
+<head>
+  <meta charset="UTF-8">
+  <link rel="apple-touch-icon" sizes="76x76" href="/img/favicon.png">
+  <link rel="icon" type="image/png" href="/img/favicon.png">
+  <meta name="viewport"
+        content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no, shrink-to-fit=no">
+  <meta http-equiv="x-ua-compatible" content="ie=edge">
+  
+  <meta name="theme-color" content="#2f4154">
+  <meta name="description" content="">
+  <meta name="author" content="liew66">
+  <meta name="keywords" content="">
+  <title>한국문화사요 - </title>
+
+  <link  rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css" />
+
+
+  <link  rel="stylesheet" href="https://cdn.jsdelivr.net/npm/github-markdown-css@4.0.0/github-markdown.min.css" />
+  <link  rel="stylesheet" href="/lib/hint/hint.min.css" />
+
+  
+    
+    
+      
+      <link  rel="stylesheet" href="https://cdn.jsdelivr.net/npm/highlight.js@10.4.0/styles/github-gist.min.css" />
+    
+  
+
+  
+    <link  rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fancyapps/fancybox@3.5.7/dist/jquery.fancybox.min.css" />
+  
+
+
+
+<!-- 主题依赖的图标库，不要自行修改 -->
+
+<link rel="stylesheet" href="//at.alicdn.com/t/font_1749284_ba1fz6golrf.css">
+
+
+
+<link rel="stylesheet" href="//at.alicdn.com/t/font_1736178_kmeydafke9r.css">
+
+
+<link  rel="stylesheet" href="/css/main.css" />
+
+<!-- 自定义样式保持在最底部 -->
+
+
+  <script id="fluid-configs">
+    var Fluid = window.Fluid || {};
+    var CONFIG = {"hostname":"66-l.github.io","root":"/","version":"1.8.7","typing":{"enable":true,"typeSpeed":70,"cursorChar":"_","loop":false},"anchorjs":{"enable":true,"element":"h1,h2,h3,h4,h5,h6","placement":"right","visible":"hover","icon":""},"progressbar":{"enable":true,"height_px":3,"color":"#29d","options":{"showSpinner":false,"trickleSpeed":100}},"copy_btn":true,"image_zoom":{"enable":true},"toc":{"enable":true,"headingSelector":"h1,h2,h3,h4,h5,h6","collapseDepth":0},"lazyload":{"enable":true,"onlypost":false},"web_analytics":{"enable":false,"baidu":null,"google":null,"gtag":null,"tencent":{"sid":null,"cid":null},"woyaola":null,"cnzz":null,"leancloud":{"app_id":null,"app_key":null,"server_url":null}}};
+  </script>
+  <script  src="/js/utils.js" ></script>
+  <script  src="/js/color-schema.js" ></script>
+<meta name="generator" content="Hexo 5.3.0"></head>
+
+
+<body>
+  <header style="height: 70vh;">
+    <nav id="navbar" class="navbar fixed-top  navbar-expand-lg navbar-dark scrolling-navbar">
+  <div class="container">
+    <a class="navbar-brand"
+       href="/">&nbsp;<strong>侧峰</strong>&nbsp;</a>
+
+    <button id="navbar-toggler-btn" class="navbar-toggler" type="button" data-toggle="collapse"
+            data-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <div class="animated-icon"><span></span><span></span><span></span></div>
+    </button>
+
+    <!-- Collapsible content -->
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav ml-auto text-center">
+        
+          
+          
+          
+          
+            <li class="nav-item">
+              <a class="nav-link" href="/">
+                <i class="iconfont icon-home-fill"></i>
+                主页
+              </a>
+            </li>
+          
+        
+          
+          
+          
+          
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                <i class="iconfont icon-books"></i>
+                检索
+              </a>
+              <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                
+                  
+                  
+                  
+                  <a class="dropdown-item" href="/archives/">
+                    <i class="iconfont icon-archive-fill"></i>
+                    归档
+                  </a>
+                
+                  
+                  
+                  
+                  <a class="dropdown-item" href="/categories/">
+                    <i class="iconfont icon-category-fill"></i>
+                    分类
+                  </a>
+                
+                  
+                  
+                  
+                  <a class="dropdown-item" href="/tags/">
+                    <i class="iconfont icon-tags-fill"></i>
+                    标签
+                  </a>
+                
+              </div>
+            </li>
+          
+        
+          
+          
+          
+          
+            <li class="nav-item">
+              <a class="nav-link" href="/about/">
+                <i class="iconfont icon-user-fill"></i>
+                关于
+              </a>
+            </li>
+          
+        
+        
+          <li class="nav-item" id="search-btn">
+            <a class="nav-link" data-toggle="modal" data-target="#modalSearch">&nbsp;<i
+                class="iconfont icon-search"></i>&nbsp;</a>
+          </li>
+        
+        
+          <li class="nav-item" id="color-toggle-btn">
+            <a class="nav-link" href="javascript:">&nbsp;<i
+                class="iconfont icon-dark" id="color-toggle-icon"></i>&nbsp;</a>
+          </li>
+        
+      </ul>
+    </div>
+  </div>
+</nav>
+
+    <div class="banner" id="banner" parallax=true
+         style="background: url('/img/default.jpg') no-repeat center center;
+           background-size: cover;">
+      <div class="full-bg-img">
+        <div class="mask flex-center" style="background-color: rgba(0, 0, 0, 0.3)">
+          <div class="page-header text-center fade-in-up">
+            <span class="h2" id="subtitle" title="한국문화사요">
+              
+            </span>
+
+            
+              <div class="mt-3">
+  
+  
+    <span class="post-meta">
+      <i class="iconfont icon-date-fill" aria-hidden="true"></i>
+      <time datetime="2021-02-11 11:19" pubdate>
+        2021年2月11日 上午
+      </time>
+    </span>
+  
+</div>
+
+<div class="mt-1">
+  
+    
+    <span class="post-meta mr-2">
+      <i class="iconfont icon-chart"></i>
+      2.4k 字
+    </span>
+  
+
+  
+    
+    <span class="post-meta mr-2">
+      <i class="iconfont icon-clock-fill"></i>
+      
+      
+      39
+       分钟
+    </span>
+  
+
+  
+  
+</div>
+
+            
+          </div>
+
+          
+        </div>
+      </div>
+    </div>
+  </header>
+
+  <main>
+    
+      
+
+<div class="container-fluid nopadding-x">
+  <div class="row nomargin-x">
+    <div class="d-none d-lg-block col-lg-2"></div>
+    <div class="col-lg-8 nopadding-x-md">
+      <div class="container nopadding-x-md" id="board-ctn">
+        <div class="py-5" id="board">
+          <article class="post-content mx-auto">
+            <!-- SEO header -->
+            <h1 style="display: none">한국문화사요</h1>
+            
+            <div class="markdown-body">
+              <h1 id="한국문화사요"><a href="#한국문화사요" class="headerlink" title="한국문화사요"></a>한국문화사요</h1><p>윤윤진 리명학 리광재 장영미 박은수</p>
+<p>[TOC]</p>
+<h1 id="머리말"><a href="#머리말" class="headerlink" title="머리말"></a>머리말</h1><p>중국에서 한국어 전공 시험을 보기 시작한 지<sup id="fnref:1" class="footnote-ref"><a href="#fn:1" rel="footnote"><span class="hint--top hint--rounded" aria-label="의존명사 (用于“ㄴ지/은지”的形式)表示时段，包含以后、之后的意思。
+">[1]</span></a></sup> 어언<sup id="fnref:2" class="footnote-ref"><a href="#fn:2" rel="footnote"><span class="hint--top hint--rounded" aria-label="（於焉） 명사 不觉间 ，不知不觉之间 ，转眼间 ，倏忽 。
+">[2]</span></a></sup> 3년이란 세월이 흘렀다.<br>그 시험을 대비해<sup id="fnref:3" class="footnote-ref"><a href="#fn:3" rel="footnote"><span class="hint--top hint--rounded" aria-label="(對備–) 자동사,타동사 防备 ，针对 ，防范 ，应对 ，应付 。
+">[3]</span></a></sup> 책을 만들어야 하다고 하여 이 책을 준비하기 시작했는데 그<br>사이 이러저러한 사정으로 피일차일<sup id="fnref:4" class="footnote-ref"><a href="#fn:4" rel="footnote"><span class="hint--top hint--rounded" aria-label="彼此
+">[4]</span></a></sup> 미루다가<sup id="fnref:5" class="footnote-ref"><a href="#fn:5" rel="footnote"><span class="hint--top hint--rounded" aria-label="타동사 推迟 ，拖延 ，延迟 ，推延 ，推 ，拖 ，延 。
+">[5]</span></a></sup> 이제야<sup id="fnref:6" class="footnote-ref"><a href="#fn:6" rel="footnote"><span class="hint--top hint--rounded" aria-label="부사 现在才
+">[6]</span></a></sup> 이 책이 빛을 보게<br>돼 홀가분하기도<sup id="fnref:7" class="footnote-ref"><a href="#fn:7" rel="footnote"><span class="hint--top hint--rounded" aria-label="1.형용사 轻便 ，轻松 ，轻快 。 (≒홑지다, 가뜬하다, 훗훗하다, 가뿐하다,산뜻하다, 홋홋하다)2..형용사 好对付 ，不在话下 。 (≒단순하다(單純–), 간단하다(簡單–)
+">[7]</span></a></sup> 하지만 마음 금할<sup id="fnref:8" class="footnote-ref"><a href="#fn:8" rel="footnote"><span class="hint--top hint--rounded" aria-label="타동사 忍 ，抑制 ，压抑, 禁止
+">[8]</span></a></sup> 바 없다.</p>
+<p>지금 한국에는 물론 종국에도 한국어 교과서는 물론 한국문화 관련 교과서들이<br>적<sup id="fnref:9" class="footnote-ref"><a href="#fn:9" rel="footnote"><span class="hint--top hint--rounded" aria-label="少
+">[9]</span></a></sup>지 않게 나와 있다. 그런데 대부분은 각 대학에 실정에 따라 문학사 따로,<br>작품선 따로 제각각<sup id="fnref:10" class="footnote-ref"><a href="#fn:10" rel="footnote"><span class="hint--top hint--rounded" aria-label="各自
+">[10]</span></a></sup> 되어 있어 교수에 이러저러한 어려움이 있다는 지적이 많다.<br>책 한 권으로 이러한 문제를 다 해결하기는 어려우나 우리는 이 책에서 교수 현장의<br>이러한 어려움을 해결하고 학생들이 한국 문화사와 문학작품을 더 쉽게 배우고 전공<br>시험을 볼 수 있도록 하고자 하였다. 그리하여 이러한 편찬<sup id="fnref:11" class="footnote-ref"><a href="#fn:11" rel="footnote"><span class="hint--top hint--rounded" aria-label="編纂(≒편수(編修), 찬찬(撰纂), 찬수(纂修))
+">[11]</span></a></sup> 방식이 있는지는<br>모르지만 문학사를 요강(要纲)식으로 간략하여 서술하는 한편, 책제목을 비롯하여 그<br>부분에서 알아두어야 할 작품을 적당하게 선정한<sup id="fnref:12" class="footnote-ref"><a href="#fn:12" rel="footnote"><span class="hint--top hint--rounded" aria-label="选定
+">[12]</span></a></sup> 후 수록하는 방식을 채용하여<br>이 책을 구성하였다. 처음 시도해 보는<sup id="fnref:13" class="footnote-ref"><a href="#fn:13" rel="footnote"><span class="hint--top hint--rounded" aria-label="试图；보조동사 (用于“-어”、“-아”、“-여”等动词语尾之后)表示试行。表示经验。
+">[13]</span></a></sup> 일이라 교수 현장의 실정과 전국<br>시험실정에 따라 앞으로 계속 보완해 나갈 것을 약속드린다. 문학사 각 부분의<br>개념들을 비롯하여 문학작품 중의 어려운 어휘도 선정해 넣을 생각이 었으나 그렇게<br>하는 데도 일부 문제가 있어 일단은 이런 현식으로 한 매듭<sup id="fnref:14" class="footnote-ref"><a href="#fn:14" rel="footnote"><span class="hint--top hint--rounded" aria-label="명사 难题 ，症结 ，疙瘩 명사 结束 ，终结 ，了结 ，告终 ，一段落
+">[14]</span></a></sup> 지어 보고 앞으로의<br>상황을 지켜보면서<sup id="fnref:15" class="footnote-ref"><a href="#fn:15" rel="footnote"><span class="hint--top hint--rounded" aria-label="注意查看；观察。
+">[15]</span></a></sup> 소정<sup id="fnref:16" class="footnote-ref"><a href="#fn:16" rel="footnote"><span class="hint--top hint--rounded" aria-label="规定
+">[16]</span></a></sup>, 보안할 생각이다. 교수 현장에서 어려운 교수를<br>담당하고 있는 많은 분들의 귀중한 조언을 기다리면서 머리말을 갈음하고자<sup id="fnref:17" class="footnote-ref"><a href="#fn:17" rel="footnote"><span class="hint--top hint--rounded" aria-label="타동사 换 ，更换 ，代替 ，替换 ，替代
+">[17]</span></a></sup><sup id="fnref:18" class="footnote-ref"><a href="#fn:18" rel="footnote"><span class="hint--top hint--rounded" aria-label="어미 连接语尾，表示愿望和意图
+">[18]</span></a></sup><br>한다.</p>
+<p>이 책은 윤윤진이 총체적으로 실계하고 윤윤진이 제1편을, 리명학이 제2편을,<br>리광재가 제3편을, 장영미가 제4편을, 박은숙이 제5편을 집필하고 마지막에 윤윤진이<br>총체적으로 점검하면서 일부 수정을 했다. 이 외에도 집필과정에 국내이 교수 현장의<br>많은 교수님들께서 이러저러한 조언을 주셨는데 여기에서 일괄 감사인사를 전한다.<br>그리고 이 책의 출판을 선뜻 맡아 주신 연변대학출반사안국봉 사장님을 비롯하여<br>송창수 부주필과 기타 출판사 관계자들에게도 인사말씀을 드리고 싶다.</p>
+<p>윤윤진</p>
+<p>2015년8월30일</p>
+<h1 id="제1편-문학의-일반-지식"><a href="#제1편-문학의-일반-지식" class="headerlink" title="제1편 문학의 일반 지식"></a>제1편 문학의 일반 지식</h1><h2 id="제1장-문학과-문학의-주변"><a href="#제1장-문학과-문학의-주변" class="headerlink" title="제1장 문학과 문학의 주변"></a>제1장 문학과 문학의 주변</h2><p>문학과 문학이 주변에는 문학이란 무엇인가 하는 문학의 가장 기본적인 문제를<br>비롯하여 문학과 사회, 문학과 인간, 원학과 문화 등 문제가 망라된 과 동시에 문학의<br>역할과 가치, 문학의 특징, 문학의 발전, 문학과 언어 등 문제들도 포함된다.</p>
+<h3 id="제1절-문학의-개념"><a href="#제1절-문학의-개념" class="headerlink" title="제1절 문학의 개념"></a>제1절 문학의 개념</h3><p>문화이란 무엇인가 하는 물음에 대한 대답은 아주 많다. 그런데 문학이란 형상과<br>언어로 인간의 사회생활과 정신생화를 재현 (표현) 하는 인간의 정신 생산 활동이고<br>창조적인 생산 활동이라고 하면 거의 무리가 없을 듯하다. 문학은 인간과 사회생화를<br>떠날 수 없는 바 인간과 사회생활이 없으면 문학도 없다고 해도 과언이 아닐 정도로<br>인간과 사회생활에 대한 문학의 의존도는 크다. 인간의 정신생활도 인간의 사회생활의<br>한 부분으로서 문학은 여전히 인간의 전신생활도 밀접한 관계를 가지게 된다.</p>
+<h3 id="제2절-문학과-사회"><a href="#제2절-문학과-사회" class="headerlink" title="제2절 문학과 사회"></a>제2절 문학과 사회</h3><p>문학과 사회와의 관계는 몇 가지 면에서 표현되고 있는데 ①첫째는 문학은 작품 내용이<br>사회생활에 의해 결정될 만큼 사회생활과 밀접한 관계를 가진다는 것이고 ②둘째는<br>문학작품은 독자를 통해 사회생활애 일정한 반작용을 하게 된다는 것이며 ③셋째는<br>문학은 일반 적으로 사회생활의 변화에 따라 발전, 변화한다는 점이다.</p>
+<h3 id="제3절-문학과-인간"><a href="#제3절-문학과-인간" class="headerlink" title="제3절 문학과 인간"></a>제3절 문학과 인간</h3><p>문학가 인간의 관계는 두 가지 측면에서 접근할 수 있는데 ①하나는 문학은 인간과<br>인간생활을 묘사하고 인간을 쓰며 인간이 읽는다는 것이고 다른 ②하나는 문학은<br>인간의 삶에 관여하는데 인간은 문학을 이용하여 자기를 성찿할 수도 있고 사회문제를<br>비판할 수도 있어 인간을 가치 있는 삶을 살 수 있도록 인도할 수도 있다는 점이다.</p>
+<h3 id="제4절-문학과-문화"><a href="#제4절-문학과-문화" class="headerlink" title="제4절 문학과 문화"></a>제4절 문학과 문화</h3><p>문학과 문화의 관계는 여러 면에서 표현되지만 여기에서는 문학과 가정 인접되어 있는<br>예술과의 관계 속에서 문학을 논하기로 한다.</p>
+<p>문학도 예술의 일종인데 예술에는 문학 외에도 음악, 무용, 미술, 조각, 영화 등이<br>있다고 할 수 있다. 예술의 궁극적인 목적이 미의 표현 또는 창조에 있다는 상정할<br>때, 음악은 선율로, 무용은 형체로, 미술은 선과 성곽으로, 조각은 형상과 모형으로,<br>영화는 종합적인 예술로 미를 표현, 또는 창조한다고 할 수 있다. 그럼 문학은<br>무엇으로 미를 창조, 표현하는가? 문학이 미를 표현 또는 창조하는 도구는 언어니다.<br>이러한 의미에서 문학은 언어예술이라고 할 수 있다.</p>
+<h3 id="제5절-문학의-기능과-역할"><a href="#제5절-문학의-기능과-역할" class="headerlink" title="제5절 문학의 기능과 역할"></a>제5절 문학의 기능과 역할</h3><h4 id="1-인식적-기능과-역할"><a href="#1-인식적-기능과-역할" class="headerlink" title="1. 인식적 기능과 역할"></a>1. 인식적 기능과 역할</h4><h4 id="2-교육적-기능과-역할"><a href="#2-교육적-기능과-역할" class="headerlink" title="2. 교육적 기능과 역할"></a>2. 교육적 기능과 역할</h4><h4 id="3-미하적-기능과-역할"><a href="#3-미하적-기능과-역할" class="headerlink" title="3. 미하적 기능과 역할"></a>3. 미하적 기능과 역할</h4><h4 id="4-오락적-기능과-역할"><a href="#4-오락적-기능과-역할" class="headerlink" title="4. 오락적 기능과 역할"></a>4. 오락적 기능과 역할</h4><h2 id="제2장-문학의-본체론"><a href="#제2장-문학의-본체론" class="headerlink" title="제2장 문학의 본체론"></a>제2장 문학의 본체론</h2><h3 id="제1절-문학의-구조"><a href="#제1절-문학의-구조" class="headerlink" title="제1절 문학의 구조"></a>제1절 문학의 구조</h3><h3 id="제2절-문학의-언어"><a href="#제2절-문학의-언어" class="headerlink" title="제2절 문학의 언어"></a>제2절 문학의 언어</h3><p>앞에서 문학작품의 언어에 대하여 잠깐 언급했지만 여기에서 논하고자 하는 언어는<br>그와는 다른 구체적인 작품에서 늘 사용되는 수사 수법으로서의 언어를 집중적으로<br>논하고자 하는데 문학이 언어의 예술이라는 점은 여기에서도 확인된다. 문학에서<br>보편적으로. 사용되고 있는 수사 수법으로는 주로 비유, 상징, 과장, 의인화 반어,<br>몽롱어 등이 있다.</p>
+<p>첫째, 비유에는 여러 가지 방식이 있는데 앞에서 말한 은유도 비유의 일종이다.<br>비유란 이 사물의 특징으로 저 사물의 특징을 대처하면서 자신의 서상이나 감정을<br>표현하는 방식인데 작가들의 창작 가운데서 가장 흔히 보게 되는 수사 방법의<br>일종인데 이 경우, 비유에 사용된 어휘는 그 어휘 원 뜻이 아니라 전이된 뜻을 가지게<br>된다. 이를테면 독자들은 문학작품 가운데서 꽃을 늘 보게 되는데 이러한 꽃 들은<br>작품 속에서 원래 지칭한던 꽃 이라는 객관 사물을 지칭하는 것이 아니라 작가가<br>생각하고 있는 다른 사물을 지칭하는, 즉 전이된 뜻을 지칭한다. 김소월 (金素月) 의<br><a href="#%EC%B4%88%ED%98%BC(%E6%8B%9B%E9%AD%82)">&lt;초혼&gt;</a>에 나오는 ‘그 사람’은 사람이 아니라 떠나가 버린 사람을<br>지칭하는 것이며</p>
+<h3 id="제3절-문학의-유형"><a href="#제3절-문학의-유형" class="headerlink" title="제3절 문학의 유형"></a>제3절 문학의 유형</h3><h3 id="제4절-문학의-갈래"><a href="#제4절-문학의-갈래" class="headerlink" title="제4절 문학의 갈래"></a>제4절 문학의 갈래</h3><h2 id="제3장-문학-작품론"><a href="#제3장-문학-작품론" class="headerlink" title="제3장 문학 작품론"></a>제3장 문학 작품론</h2><h3 id="제1절-서정문학-작품"><a href="#제1절-서정문학-작품" class="headerlink" title="제1절 서정문학 작품"></a>제1절 서정문학 작품</h3><h4 id="1-서정문학-자폼의-기본-특징"><a href="#1-서정문학-자폼의-기본-특징" class="headerlink" title="1. 서정문학 자폼의 기본 특징"></a>1. 서정문학 자폼의 기본 특징</h4><h4 id="2-서정문학-자폼의-형식적-특징"><a href="#2-서정문학-자폼의-형식적-특징" class="headerlink" title="2. 서정문학 자폼의 형식적 특징"></a>2. 서정문학 자폼의 형식적 특징</h4><h4 id="3-서정문학-자폼의-종류"><a href="#3-서정문학-자폼의-종류" class="headerlink" title="3. 서정문학 자폼의 종류"></a>3. 서정문학 자폼의 종류</h4><h3 id="제2절-서사문학-작품"><a href="#제2절-서사문학-작품" class="headerlink" title="제2절 서사문학 작품"></a>제2절 서사문학 작품</h3><h4 id="1-서사문학-작품의-제재와-주제"><a href="#1-서사문학-작품의-제재와-주제" class="headerlink" title="1. 서사문학 작품의 제재와 주제"></a>1. 서사문학 작품의 제재와 주제</h4><h4 id="2-서사문학-작품의-줄거리와-플록"><a href="#2-서사문학-작품의-줄거리와-플록" class="headerlink" title="2. 서사문학 작품의 줄거리와 플록"></a>2. 서사문학 작품의 줄거리와 플록</h4><h4 id="3-서사문학-작품의-배경과-환경"><a href="#3-서사문학-작품의-배경과-환경" class="headerlink" title="3. 서사문학 작품의 배경과 환경"></a>3. 서사문학 작품의 배경과 환경</h4><h4 id="4-서사문학-작품의-인물"><a href="#4-서사문학-작품의-인물" class="headerlink" title="4. 서사문학 작품의 인물"></a>4. 서사문학 작품의 인물</h4><h4 id="5-서사문학-작품의-구성"><a href="#5-서사문학-작품의-구성" class="headerlink" title="5. 서사문학 작품의 구성"></a>5. 서사문학 작품의 구성</h4><h4 id="6-서사학"><a href="#6-서사학" class="headerlink" title="6. 서사학"></a>6. 서사학</h4><h3 id="제3절-희극문학-작품"><a href="#제3절-희극문학-작품" class="headerlink" title="제3절 희극문학 작품"></a>제3절 희극문학 작품</h3><h4 id="1-희극문학-작품의-기본-특징"><a href="#1-희극문학-작품의-기본-특징" class="headerlink" title="1. 희극문학 작품의 기본 특징"></a>1. 희극문학 작품의 기본 특징</h4><h4 id="2-희극문학-작품의-형식적-특징"><a href="#2-희극문학-작품의-형식적-특징" class="headerlink" title="2. 희극문학 작품의 형식적 특징"></a>2. 희극문학 작품의 형식적 특징</h4><h4 id="3-희극문학-작품의-종류"><a href="#3-희극문학-작품의-종류" class="headerlink" title="3. 희극문학 작품의 종류"></a>3. 희극문학 작품의 종류</h4><h3 id="제4절-교술문학-작품"><a href="#제4절-교술문학-작품" class="headerlink" title="제4절 교술문학 작품"></a>제4절 교술문학 작품</h3><h4 id="1-교술문학-작품의-기본-특징"><a href="#1-교술문학-작품의-기본-특징" class="headerlink" title="1. 교술문학 작품의 기본 특징"></a>1. 교술문학 작품의 기본 특징</h4><h4 id="2-교술문학-작품의-형식적-특징"><a href="#2-교술문학-작품의-형식적-특징" class="headerlink" title="2. 교술문학 작품의 형식적 특징"></a>2. 교술문학 작품의 형식적 특징</h4><h4 id="3-교술문학-작품의-종류"><a href="#3-교술문학-작품의-종류" class="headerlink" title="3. 교술문학 작품의 종류"></a>3. 교술문학 작품의 종류</h4><h1 id="제2편-삼국-고려-시기-문학"><a href="#제2편-삼국-고려-시기-문학" class="headerlink" title="제2편 삼국-고려 시기 문학"></a>제2편 삼국-고려 시기 문학</h1><h2 id="제1장-상고-시기-문학"><a href="#제1장-상고-시기-문학" class="headerlink" title="제1장 상고 시기 문학"></a>제1장 상고 시기 문학</h2><h3 id="제1절-문학-개관"><a href="#제1절-문학-개관" class="headerlink" title="제1절 문학 개관"></a>제1절 문학 개관</h3><p>한국의 선고 문학은 원시 종합예술에 그 기원을 두고 있는 바 그 시기의 예술은<br>사냥이나 채집, 그리고 농사를 짓는 동 노동생활과 밀접한 관계를 가지면서<br>발전하였는데 거기에는 당시 인간들의 사상의식 종교의식, 그리고 그들의 생활,<br>그들의 감정, 갈망 소원들이 반영되어 있다. 한국의 고전 문학작품들인 &lt;구지가&gt;와<br>&lt;공무도하가&gt;등 가요를 비롯하여 &lt;단군신화&gt;, &lt;박혁거세신화 (朴赫居世神话)<br>&gt;，그리고 기타 신화나 전설이 이 점을 여실히 증명해 주고 있다.</p>
+<h3 id="제2절-서정문학"><a href="#제2절-서정문학" class="headerlink" title="제2절 서정문학"></a>제2절 서정문학</h3><p>지금은 전하고 있는 한국의 가장 오랜 서정문학은 가요라고 할 수 있는데<br>&lt;구지가&gt;와 &lt;공무도하가&gt;가 그 대표적인 작품입니다. 이러한 작품들은 한국의<br>원시사회 또는 원시사회로부터 계급사회에로 이행하는 시기의 생활을 반영하고 있는<br>바 이는 한국 상고시기에 한민족의 사회생활상을 추측해 볼 수 있는 가장 귀중한<br>자료임과 동시에는 한국의 최초 시가로서 그 문학의 산생과 발전과정을 미루어 볼 수<br>있는 귀중한 자료로 되고 있다.</p>
+<h4 id="1-lt-구지가-gt"><a href="#1-lt-구지가-gt" class="headerlink" title="1. &lt;구지가&gt;"></a>1. &lt;구지가&gt;</h4><p>&lt;구지가&gt;는 현전하는 한국 최초의 가요이다. 물론 한국에고 상고 시기에 많은<br>가요들이 있었을 것으로 추측되나 한국 고전 문헌의 유실로 그 구체적인 양상은<br>제대로 파악할 수 없다. 이 &lt;구지가&gt;는 일연의 &lt;&lt;삼국유사&gt;&gt;에 수록되어<br>지금까지 전해지고 있다.</p>
+<ol>
+<li>&lt;구지가&gt;의 원문</li>
+</ol>
+<p>龜何龜何 구 하 구 하</p>
+<p>首其現也 수 기 현 야</p>
+<p>若不現也 약 불 현 야</p>
+<p>燔灼而喫也 번 작 이 끽 야</p>
+<p>&lt;구지가&gt;의 현대 역문</p>
+<p>거북아 거북아</p>
+<p>머리를 내놓아라 (머리를 내어라)</p>
+<p>내밀지 않으면 (내놓지 않으면)</p>
+<p>구워서 먹으리.</p>
+<ol start="2">
+<li><p>작품 해설</p>
+</li>
+<li><p>작품 내용</p>
+</li>
+</ol>
+<h4 id="2-lt-공무도하가-gt"><a href="#2-lt-공무도하가-gt" class="headerlink" title="2. &lt;공무도하가&gt;"></a>2. &lt;공무도하가&gt;</h4><h3 id="제3절-서사문학"><a href="#제3절-서사문학" class="headerlink" title="제3절 서사문학"></a>제3절 서사문학</h3><h4 id="1-신화-개관"><a href="#1-신화-개관" class="headerlink" title="1. 신화 개관"></a>1. 신화 개관</h4><h4 id="2-단군신화"><a href="#2-단군신화" class="headerlink" title="2. 단군신화"></a>2. 단군신화</h4><ol>
+<li>단군신화의 원문</li>
+</ol>
+<p>古记云，昔有桓因，庶子桓雄，数意天下，贪求人世。父知子意，下视三危太白，可以弘益人间。乃授天符印三个，遣往理之。雄率徒三千，降于太白山顶神壇樹下，谓之神市。是谓桓雄天王也。将风伯、雨师、云师，而主谷、主命、主病、主刑、主善恶凡主人間三百六十余事，在世理化。時有一熊一虎，同穴而居，長祈于神桓雄，愿化为人。时神遣灵艾一炷，蒜二十枚曰：尔辈食之，不见日光百日，便得人形。熊虎得而食之，忌三七日，熊得女身，虎不能忌，而不得人身。熊女者，无与为婚，故每于壇樹下，呪愿有孕，雄乃假化而婚之，乃生子，号曰壇君王俭。以唐高即位五十年庚寅，都平壤城，始称朝鲜。又移都于白岳山阿斯达，又名弓忽山，又今弥达。</p>
+<ol start="2">
+<li>작품 해설</li>
+</ol>
+<p>단군신화는 찬상과 천하 두 개 부분으로 나뉘어 천강 한 환웅이 신시를 개설하는<br>과정과 단군의 출생이라는 두 개 과정으로 나뉜다. 이 신화에서 환웅은 천신을<br>숭배하는 이주민들을 상징하고 웅녀는 곰을 토템으로 하는 원주민을 뜻한다. 환웅과<br>웅녀가 결혼해 단군을 낳고 단군이 조선의 시조가 되었다는 것은 천신을 숭배하든<br>이주민과 곰을 토템으로 하던 원주민의 융합 과정을 재현한 것이다.</p>
+<p>이 신화에는 건국을 중심으로 하는 한국 신화의 특징을 비롯하여 고조선의 태양 숭배,<br>토템 사상과 무속신앙 등 한민족의 태초의 관념과 이식들이 반영되어 있으며 종족이나<br>부족, 또는 원시인들의 집단적인 이주 과정과 이주민과 원주민의 융합 과정을<br>비롯하여 여러 가지 원시적인 생활들이 엿보이고 있으며 우주관이나 음양오행설을<br>비롯한 중국 문화의 영향도 보이고 있다.</p>
+<ol start="3">
+<li>작품 의의</li>
+</ol>
+<p>위에서 서술한 바와 같이 단군신화에는 건국 혹은 국조 신화의 성격을 띠고 있는<br>것으로 거기에는 고조선이라는 국가의 건립 과정이 구체적으로 기록되어 있다.<br>이리하여 그 뒤에 고려시기에 와서는 이 단군신화를 근거로 단군을 한민족의 구조로<br>시인하고 조선시대에 와서는 단군의 실제설이 나타나면서 세종은 신하들에게 명하여<br>단군의 사당을 건설하게 하고 고구려의 시조인 동명왕과 함게 국조로 모시고 단국의<br>건국이념인 홍익인간의 넓은 의미를 세상에 일이었다. 뿐더러 현재 한국에서는 매년<br>10월 3일을 개천절로전하고 나라의 국경일로 삼고 있다.</p>
+<h2 id="제2장-삼국-통일신라-시기-문학"><a href="#제2장-삼국-통일신라-시기-문학" class="headerlink" title="제2장 삼국-통일신라 시기 문학"></a>제2장 삼국-통일신라 시기 문학</h2><h1 id="제4편-19세기-말-20세기-초-문학"><a href="#제4편-19세기-말-20세기-초-문학" class="headerlink" title="제4편 19세기 말-20세기 초 문학"></a>제4편 19세기 말-20세기 초 문학</h1><h2 id="제1장-개화기와-1910년대-문학"><a href="#제1장-개화기와-1910년대-문학" class="headerlink" title="제1장 개화기와 1910년대 문학"></a>제1장 개화기와 1910년대 문학</h2><h2 id="제2장-1920년대-문학"><a href="#제2장-1920년대-문학" class="headerlink" title="제2장 1920년대 문학"></a>제2장 1920년대 문학</h2><h3 id="제1절-1920년대-문학-개관"><a href="#제1절-1920년대-문학-개관" class="headerlink" title="제1절 1920년대 문학 개관"></a>제1절 1920년대 문학 개관</h3><h3 id="제2절-시가문학"><a href="#제2절-시가문학" class="headerlink" title="제2절 시가문학"></a>제2절 시가문학</h3><h4 id="1-1920년대-시가문학-개관"><a href="#1-1920년대-시가문학-개관" class="headerlink" title="1. 1920년대 시가문학 개관"></a>1. 1920년대 시가문학 개관</h4><h4 id="2-김소월의-lt-진달래꽃-gt-과-lt-초혼-gt"><a href="#2-김소월의-lt-진달래꽃-gt-과-lt-초혼-gt" class="headerlink" title="2. 김소월의 &lt;진달래꽃&gt;과 &lt;초혼&gt;"></a>2. 김소월의 &lt;진달래꽃&gt;과 &lt;초혼&gt;</h4><p>&lt;진달래꽃&gt;</p>
+<ol>
+<li>&lt;진달래꽃&gt;의 원문</li>
+</ol>
+<p>나 보기가 역겨워<sup id="fnref:19" class="footnote-ref"><a href="#fn:19" rel="footnote"><span class="hint--top hint--rounded" aria-label="讨厌
+">[19]</span></a></sup></p>
+<p>가실 때에는</p>
+<p>말없이 고이<sup id="fnref:20" class="footnote-ref"><a href="#fn:20" rel="footnote"><span class="hint--top hint--rounded" aria-label="好好地
+">[20]</span></a></sup> 보내 드리오리다</p>
+<p>영변(宁边)에 약산(药山)</p>
+<p>진달래꽃</p>
+<p>아름 따다<sup id="fnref:21" class="footnote-ref"><a href="#fn:21" rel="footnote"><span class="hint--top hint--rounded" aria-label="采
+">[21]</span></a></sup> 가실 길에 뿌리오리다<sup id="fnref:22" class="footnote-ref"><a href="#fn:22" rel="footnote"><span class="hint--top hint--rounded" aria-label="撒
+">[22]</span></a></sup></p>
+<p>가시는 걸음 걸음</p>
+<p>놓인 그 꽃을</p>
+<p>사뿐히<sup id="fnref:23" class="footnote-ref"><a href="#fn:23" rel="footnote"><span class="hint--top hint--rounded" aria-label="轻轻地
+">[23]</span></a></sup> 즈려 밟고<sup id="fnref:24" class="footnote-ref"><a href="#fn:24" rel="footnote"><span class="hint--top hint--rounded" aria-label="高
+">[24]</span></a></sup> 가시옵소서</p>
+<p>나 보기가 역겨워</p>
+<p>가실 때에는</p>
+<p>죽어도 아니 눈물 흘리오리다.</p>
+<p>译：</p>
+<p>如果君已如此厌我</p>
+<p>想离我而去，</p>
+<p>我会静静地让君离去，默默目送你离开。</p>
+<p>在宁边的药山</p>
+<p>我会采一大把金达莱花</p>
+<p>铺在君离开的路上。</p>
+<p>离开的脚步</p>
+<p>请君轻轻地踩</p>
+<p>脚下的那朵朵金达莱花。</p>
+<p>如果君已如此厌我</p>
+<p>欲弃我而去之时，</p>
+<p>就算死去，也不会流泪。</p>
+<p>&lt;초혼 (招魂) &gt;</p>
+<ol>
+<li>&lt;초혼&gt;의 원문</li>
+</ol>
+<p>산산이<sup id="fnref:25" class="footnote-ref"><a href="#fn:25" rel="footnote"><span class="hint--top hint--rounded" aria-label="纷纷
+">[25]</span></a></sup> 부서진<sup id="fnref:26" class="footnote-ref"><a href="#fn:26" rel="footnote"><span class="hint--top hint--rounded" aria-label="碎
+">[26]</span></a></sup> 이름이여!</p>
+<p>허공 중에 헤어진 이름이여!</p>
+<p>불러도 주인 없는 이름이여!</p>
+<p>부르다가 내가 죽을 이름이여!</p>
+<p>심중에 남아 있는 말 한 마디는</p>
+<p>끝끝내<sup id="fnref:27" class="footnote-ref"><a href="#fn:27" rel="footnote"><span class="hint--top hint--rounded" aria-label="一直
+">[27]</span></a></sup> 마저 하지 못하였구나.</p>
+<p>사랑하던 그 사람이여!</p>
+<p>사랑하던 그 사람이여!</p>
+<p>붉은 해는 서산마루에 걸리었다.</p>
+<p>사슴의 무리도 슬피 운다.</p>
+<p>떨어져 나가 앉은 산위에서</p>
+<p>나는 그대의 이름을 부르노라.</p>
+<p>설움에 겹도록 부르노라.</p>
+<p>설움에 겹도록 부르노라.</p>
+<p>부르는 소리는 비껴가지만</p>
+<p>하늘과 땅 사이가 너무 넓구나.</p>
+<p>선 채로 이 자리에 돌이 되어도</p>
+<p>부르다가 내가 죽을 이름이여!</p>
+<p>사랑하던 그 사람이여!</p>
+<p>사랑하던 그 사람이여!</p>
+<p>译：</p>
+<p>那支离破碎的名字啊！</p>
+<p>那消散在苍穹中的名字啊！</p>
+<p>那呼唤不应的名字啊！</p>
+<p>那呼唤致死的名字啊！</p>
+<p>深藏于心的那句话，</p>
+<p>始终无法诉说。</p>
+<p>我深爱过的人啊！</p>
+<p>我深爱过的人啊！</p>
+<p>红日悬挂于西山，</p>
+<p>鹿群也在哀哀啼哭。</p>
+<p>我处于远处的山头上，</p>
+<p>呼唤着你的名字！</p>
+<p>饱含悲痛地呼唤。</p>
+<p>饱含悲痛地呼唤。</p>
+<p>呼唤声虽已传出</p>
+<p>但天地之间过于宽广。</p>
+<p>即使伫立着变成岩石</p>
+<p>那呼唤致死的名字啊！</p>
+<p>我深爱的人啊！</p>
+<p>我深爱的人啊！</p>
+<h4 id="3-한용운-lt-님의-침묵-gt"><a href="#3-한용운-lt-님의-침묵-gt" class="headerlink" title="3. 한용운 &lt;님의 침묵&gt;"></a>3. 한용운 &lt;님의 침묵&gt;</h4><h4 id="4-이상화의-lt-빼앗긴-들에도-봄은-오는가-gt"><a href="#4-이상화의-lt-빼앗긴-들에도-봄은-오는가-gt" class="headerlink" title="4. 이상화의 &lt;빼앗긴 들에도 봄은 오는가&gt;"></a>4. 이상화의 &lt;빼앗긴 들에도 봄은 오는가&gt;</h4><h3 id="제3절-소설문학"><a href="#제3절-소설문학" class="headerlink" title="제3절 소설문학"></a>제3절 소설문학</h3><h4 id="1-1920년대-소설문학-개관"><a href="#1-1920년대-소설문학-개관" class="headerlink" title="1. 1920년대 소설문학 개관"></a>1. 1920년대 소설문학 개관</h4><h4 id="2-현진건-玄鎭健-의-lt-운수-좋은-날-gt"><a href="#2-현진건-玄鎭健-의-lt-운수-좋은-날-gt" class="headerlink" title="2. 현진건 (玄鎭健) 의 &lt;운수 좋은 날&gt;"></a>2. 현진건 (玄鎭健) 의 &lt;운수 좋은 날&gt;</h4><p>현진건(1900-1943)의 호는 빙허 (凭虚) 이며 일본 도쿄 독일어 하교를 졸업하고 종국<br>성하이 외국어학교에서 수학했다.</p>
+<p>대표작은 &lt;할머니의 죽음&gt;, &lt;B사감과 러브레터&gt; 등 단편과 &lt;적도&gt;, &lt;무영<br>탑&gt;, &lt;헉치상기&gt; (미완성) 등 장편이 이다.</p>
+<p>1920년 &lt;&lt;개벽&gt;&gt;에 단편소설 &lt;희승자&gt;를 발표하면서 등단했다.</p>
+<p>1921년 자전적 소설 &lt;빈처貧妻&gt;에 이어 &lt;술 권하는 사회&gt;를 발표하면서 작자로서<br>주목받기 시작했다.</p>
+<p>1922년 &lt;&lt;백조白潮&gt;&gt; 동인으로 활동하면서 &lt;타락자&gt;, &lt;운수 좋은 날&gt;,<br>&lt;불&gt;등을 발표했다.</p>
+<p>현진건(玄鎭健)는 김동인 (金東仁) 과 함께 근대 단편 소설 선구자로 꼽힌다. 염상섭<br>(廉想涉) 과 함께 사실주의를 개척한 작자로 평가받는다.</p>
+<ol>
+<li>앞부분 줄거리<sup id="fnref:28" class="footnote-ref"><a href="#fn:28" rel="footnote"><span class="hint--top hint--rounded" aria-label="前情提要
+">[28]</span></a></sup></li>
+</ol>
+<h3 id="제4절-희극문학"><a href="#제4절-희극문학" class="headerlink" title="제4절 희극문학"></a>제4절 희극문학</h3><h1 id><a href="#" class="headerlink" title></a></h1><h1 id="부록"><a href="#부록" class="headerlink" title="부록"></a>부록</h1><h2 id="부록1-한중-역사-시대-대응표"><a href="#부록1-한중-역사-시대-대응표" class="headerlink" title="부록1: 한중 역사 시대 대응표"></a>부록1: 한중 역사 시대 대응표</h2><figure class="highlight awk"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><code class="hljs awk">&#123;% pdf .<span class="hljs-regexp">/한국문화사요/</span>中韩历史时间对照表（简版）.pdf %&#125;<br></code></pre></td></tr></table></figure>
+<p><object data="./한국문화사요/中韩历史时间对照表（简版）.pdf" type="application/pdf" width="100%" height="100%"><section class="footnotes"><div class="footnote-list"><ol><li><span id="fn:1" class="footnote-text"><span>의존명사 (用于“ㄴ지/은지”的形式)表示时段，包含以后、之后的意思。<br><a href="#fnref:1" rev="footnote" class="footnote-backref"> ↩</a></span></span></li><li><span id="fn:2" class="footnote-text"><span>（於焉） 명사 不觉间 ，不知不觉之间 ，转眼间 ，倏忽 。<br><a href="#fnref:2" rev="footnote" class="footnote-backref"> ↩</a></span></span></li><li><span id="fn:3" class="footnote-text"><span>(對備–) 자동사,타동사 防备 ，针对 ，防范 ，应对 ，应付 。<br><a href="#fnref:3" rev="footnote" class="footnote-backref"> ↩</a></span></span></li><li><span id="fn:4" class="footnote-text"><span>彼此<br><a href="#fnref:4" rev="footnote" class="footnote-backref"> ↩</a></span></span></li><li><span id="fn:5" class="footnote-text"><span>타동사 推迟 ，拖延 ，延迟 ，推延 ，推 ，拖 ，延 。<br><a href="#fnref:5" rev="footnote" class="footnote-backref"> ↩</a></span></span></li><li><span id="fn:6" class="footnote-text"><span>부사 现在才<br><a href="#fnref:6" rev="footnote" class="footnote-backref"> ↩</a></span></span></li><li><span id="fn:7" class="footnote-text"><span>1.형용사 轻便 ，轻松 ，轻快 。 (≒홑지다, 가뜬하다, 훗훗하다, 가뿐하다,산뜻하다, 홋홋하다)2..형용사 好对付 ，不在话下 。 (≒단순하다(單純–), 간단하다(簡單–)<br><a href="#fnref:7" rev="footnote" class="footnote-backref"> ↩</a></span></span></li><li><span id="fn:8" class="footnote-text"><span>타동사 忍 ，抑制 ，压抑, 禁止<br><a href="#fnref:8" rev="footnote" class="footnote-backref"> ↩</a></span></span></li><li><span id="fn:9" class="footnote-text"><span>少<br><a href="#fnref:9" rev="footnote" class="footnote-backref"> ↩</a></span></span></li><li><span id="fn:10" class="footnote-text"><span>各自<br><a href="#fnref:10" rev="footnote" class="footnote-backref"> ↩</a></span></span></li><li><span id="fn:11" class="footnote-text"><span>編纂(≒편수(編修), 찬찬(撰纂), 찬수(纂修))<br><a href="#fnref:11" rev="footnote" class="footnote-backref"> ↩</a></span></span></li><li><span id="fn:12" class="footnote-text"><span>选定<br><a href="#fnref:12" rev="footnote" class="footnote-backref"> ↩</a></span></span></li><li><span id="fn:13" class="footnote-text"><span>试图；보조동사 (用于“-어”、“-아”、“-여”等动词语尾之后)表示试行。表示经验。<br><a href="#fnref:13" rev="footnote" class="footnote-backref"> ↩</a></span></span></li><li><span id="fn:14" class="footnote-text"><span>명사 难题 ，症结 ，疙瘩 명사 结束 ，终结 ，了结 ，告终 ，一段落<br><a href="#fnref:14" rev="footnote" class="footnote-backref"> ↩</a></span></span></li><li><span id="fn:15" class="footnote-text"><span>注意查看；观察。<br><a href="#fnref:15" rev="footnote" class="footnote-backref"> ↩</a></span></span></li><li><span id="fn:16" class="footnote-text"><span>规定<br><a href="#fnref:16" rev="footnote" class="footnote-backref"> ↩</a></span></span></li><li><span id="fn:17" class="footnote-text"><span>타동사 换 ，更换 ，代替 ，替换 ，替代<br><a href="#fnref:17" rev="footnote" class="footnote-backref"> ↩</a></span></span></li><li><span id="fn:18" class="footnote-text"><span>어미 连接语尾，表示愿望和意图<br><a href="#fnref:18" rev="footnote" class="footnote-backref"> ↩</a></span></span></li><li><span id="fn:19" class="footnote-text"><span>讨厌<br><a href="#fnref:19" rev="footnote" class="footnote-backref"> ↩</a></span></span></li><li><span id="fn:20" class="footnote-text"><span>好好地<br><a href="#fnref:20" rev="footnote" class="footnote-backref"> ↩</a></span></span></li><li><span id="fn:21" class="footnote-text"><span>采<br><a href="#fnref:21" rev="footnote" class="footnote-backref"> ↩</a></span></span></li><li><span id="fn:22" class="footnote-text"><span>撒<br><a href="#fnref:22" rev="footnote" class="footnote-backref"> ↩</a></span></span></li><li><span id="fn:23" class="footnote-text"><span>轻轻地<br><a href="#fnref:23" rev="footnote" class="footnote-backref"> ↩</a></span></span></li><li><span id="fn:24" class="footnote-text"><span>高<br><a href="#fnref:24" rev="footnote" class="footnote-backref"> ↩</a></span></span></li><li><span id="fn:25" class="footnote-text"><span>纷纷<br><a href="#fnref:25" rev="footnote" class="footnote-backref"> ↩</a></span></span></li><li><span id="fn:26" class="footnote-text"><span>碎<br><a href="#fnref:26" rev="footnote" class="footnote-backref"> ↩</a></span></span></li><li><span id="fn:27" class="footnote-text"><span>一直<br><a href="#fnref:27" rev="footnote" class="footnote-backref"> ↩</a></span></span></li><li><span id="fn:28" class="footnote-text"><span>前情提要<br><a href="#fnref:28" rev="footnote" class="footnote-backref"> ↩</a></span></span></li></ol></div></section></object></p>
+
+            </div>
+            <hr>
+            <div>
+              <div class="post-metas mb-3">
+                
+                  <div class="post-meta mr-3">
+                    <i class="iconfont icon-category"></i>
+                    
+                      <a class="hover-with-bg" href="/categories/%E9%9F%A9%E8%AF%AD/">韩语</a>
+                    
+                  </div>
+                
+                
+                  <div class="post-meta">
+                    <i class="iconfont icon-tags"></i>
+                    
+                      <a class="hover-with-bg" href="/tags/%E9%9F%A9%E8%AF%AD/">韩语</a>
+                    
+                  </div>
+                
+              </div>
+              
+                <p class="note note-warning">本博客所有文章除特别声明外，均采用 <a target="_blank" href="https://creativecommons.org/licenses/by-sa/4.0/deed.zh" rel="nofollow noopener noopener">CC BY-SA 4.0 协议</a> ，转载请注明出处！</p>
+              
+              
+                <div class="post-prevnext">
+                  <article class="post-prev col-6">
+                    
+                    
+                      <a href="/2021/02/11/%E4%B9%8C%E6%9C%89%E5%85%88%E7%94%9F%E5%8E%86%E9%99%A9%E8%AE%B0/">
+                        <i class="iconfont icon-arrowleft"></i>
+                        <span class="hidden-mobile">乌有先生历险记</span>
+                        <span class="visible-mobile">上一篇</span>
+                      </a>
+                    
+                  </article>
+                  <article class="post-next col-6">
+                    
+                    
+                      <a href="/2021/02/10/%E5%AE%9E%E7%94%A8%E7%9A%84%E5%9B%BE%E7%89%87%E8%B0%83%E8%89%B2%E5%99%A8/">
+                        <span class="hidden-mobile">Camera Raw 实用的图片调色器</span>
+                        <span class="visible-mobile">下一篇</span>
+                        <i class="iconfont icon-arrowright"></i>
+                      </a>
+                    
+                  </article>
+                </div>
+              
+            </div>
+
+            
+          </article>
+        </div>
+      </div>
+    </div>
+    
+      <div class="d-none d-lg-block col-lg-2 toc-container" id="toc-ctn">
+        <div id="toc">
+  <p class="toc-header"><i class="iconfont icon-list"></i>&nbsp;目录</p>
+  <div class="toc-body" id="toc-body"></div>
+</div>
+
+      </div>
+    
+  </div>
+</div>
+
+<!-- Custom -->
+
+
+    
+
+    
+      <a id="scroll-top-button" href="#" role="button">
+        <i class="iconfont icon-arrowup" aria-hidden="true"></i>
+      </a>
+    
+
+    
+      <div class="modal fade" id="modalSearch" tabindex="-1" role="dialog" aria-labelledby="ModalLabel"
+     aria-hidden="true">
+  <div class="modal-dialog modal-dialog-scrollable modal-lg" role="document">
+    <div class="modal-content">
+      <div class="modal-header text-center">
+        <h4 class="modal-title w-100 font-weight-bold">搜索</h4>
+        <button type="button" id="local-search-close" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body mx-3">
+        <div class="md-form mb-5">
+          <input type="text" id="local-search-input" class="form-control validate">
+          <label data-error="x" data-success="v"
+                 for="local-search-input">关键词</label>
+        </div>
+        <div class="list-group" id="local-search-result"></div>
+      </div>
+    </div>
+  </div>
+</div>
+    
+
+    
+  </main>
+
+  <footer class="text-center mt-5 py-3">
+  <div class="footer-content">
+     <a href="https://hexo.io" target="_blank" rel="nofollow noopener"><span>Hexo</span></a> <i class="iconfont icon-love"></i> <a href="https://github.com/fluid-dev/hexo-theme-fluid" target="_blank" rel="nofollow noopener"><span>Fluid</span></a> 
+  </div>
+  
+
+  
+
+  
+</footer>
+
+<!-- SCRIPTS -->
+
+  <script  src="https://cdn.jsdelivr.net/npm/nprogress@0.2.0/nprogress.min.js" ></script>
+  <link  rel="stylesheet" href="https://cdn.jsdelivr.net/npm/nprogress@0.2.0/nprogress.min.css" />
+
+  <script>
+    NProgress.configure({"showSpinner":false,"trickleSpeed":100})
+    NProgress.start()
+    window.addEventListener('load', function() {
+      NProgress.done();
+    })
+  </script>
+
+
+<script  src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.min.js" ></script>
+<script  src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.min.js" ></script>
+<script  src="/js/debouncer.js" ></script>
+<script  src="/js/events.js" ></script>
+<script  src="/js/plugins.js" ></script>
+
+<!-- Plugins -->
+
+
+  
+    <script  src="/js/lazyload.js" ></script>
+  
+
+
+
+  
+
+
+
+  <script  src="https://cdn.jsdelivr.net/npm/tocbot@4.12.0/dist/tocbot.min.js" ></script>
+
+
+
+  <script  src="https://cdn.jsdelivr.net/npm/@fancyapps/fancybox@3.5.7/dist/jquery.fancybox.min.js" ></script>
+
+
+
+  <script  src="https://cdn.jsdelivr.net/npm/anchor-js@4.3.0/anchor.min.js" ></script>
+
+
+
+  <script defer src="https://cdn.jsdelivr.net/npm/clipboard@2.0.6/dist/clipboard.min.js" ></script>
+
+
+
+
+
+
+  <script  src="https://cdn.jsdelivr.net/npm/typed.js@2.0.11/lib/typed.min.js" ></script>
+  <script>
+    (function (window, document) {
+      var typing = Fluid.plugins.typing;
+      var title = document.getElementById('subtitle').title;
+      
+      typing(title)
+      
+    })(window, document);
+  </script>
+
+
+
+  <script  src="/js/local-search.js" ></script>
+  <script>
+    (function () {
+      var path = "/local-search.xml";
+      var inputArea = document.querySelector("#local-search-input");
+      inputArea.onclick = function () {
+        searchFunc(path, 'local-search-input', 'local-search-result');
+        this.onclick = null
+      }
+    })()
+  </script>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!-- 主题的启动项 保持在最底部 -->
+<script  src="/js/boot.js" ></script>
+
+
+
+</body>
+</html>
