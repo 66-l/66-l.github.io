@@ -17,11 +17,30 @@
   
   
   <entry>
+    <title>日志</title>
+    <link href="/2021/02/12/%E6%97%A5%E5%BF%97/"/>
+    <url>/2021/02/12/%E6%97%A5%E5%BF%97/</url>
+    
+    <content type="html"><![CDATA[<h1 id="插入图片"><a href="#插入图片" class="headerlink" title="插入图片"></a>插入图片</h1><h1 id="插入pdf"><a href="#插入pdf" class="headerlink" title="插入pdf"></a>插入pdf</h1><figure class="highlight ada"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><code class="hljs ada">npm install <span class="hljs-comment">--save hexo-pdf</span><br></code></pre></td></tr></table></figure><p>方法1：<div class="row">    <embed src="./name.pdf" width="100%" height="550" type="application/pdf"></div></p><p>方法2：<embed src="./name.pdf" width="100%" height="1200" type="application/pdf"></p>]]></content>
+    
+    
+    
+    <tags>
+      
+      <tag>hexo</tag>
+      
+    </tags>
+    
+  </entry>
+  
+  
+  
+  <entry>
     <title>分镜头脚本设计</title>
     <link href="/2021/02/12/%E5%88%86%E9%95%9C%E5%A4%B4%E8%84%9A%E6%9C%AC%E8%AE%BE%E8%AE%A1/"/>
     <url>/2021/02/12/%E5%88%86%E9%95%9C%E5%A4%B4%E8%84%9A%E6%9C%AC%E8%AE%BE%E8%AE%A1/</url>
     
-    <content type="html"><![CDATA[<div class="row">    <embed src="/2021/02/12/%E5%88%86%E9%95%9C%E5%A4%B4%E8%84%9A%E6%9C%AC%E8%AE%BE%E8%AE%A1/%E5%88%86%E9%95%9C%E5%A4%B4%E8%84%9A%E6%9C%AC%E8%AE%BE%E8%AE%A1%5C%E5%88%86%E9%95%9C%E5%A4%B4%E8%84%9A%E6%9C%AC%E8%AE%BE%E8%AE%A1.pdf" width="100%" height="550" type="application/pdf"></div><p> <a href="%E5%88%86%E9%95%9C%E5%A4%B4%E8%84%9A%E6%9C%AC%E8%AE%BE%E8%AE%A1%5C%E5%88%86%E9%95%9C%E5%A4%B4%E8%84%9A%E6%9C%AC%E8%AE%BE%E8%AE%A1.pdf">分镜头脚本设计.pdf</a> </p>]]></content>
+    <content type="html"><![CDATA[<embed src="./分镜头脚本设计.pdf" width="100%" height="1200" type="application/pdf">]]></content>
     
     
     <categories>
@@ -36,6 +55,8 @@
       <tag>摄影</tag>
       
       <tag>美术</tag>
+      
+      <tag>书</tag>
       
     </tags>
     
