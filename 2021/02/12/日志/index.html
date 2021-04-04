@@ -7,8 +7,8 @@
 
 <head>
   <meta charset="UTF-8">
-  <link rel="apple-touch-icon" sizes="76x76" href="/img/favicon.png">
-  <link rel="icon" type="image/png" href="/img/favicon.png">
+  <link rel="apple-touch-icon" sizes="76x76" href="/img/favicon.jpg">
+  <link rel="icon" type="image/png" href="/img/favicon.jpg">
   <meta name="viewport"
         content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no, shrink-to-fit=no">
   <meta http-equiv="x-ua-compatible" content="ie=edge">
@@ -59,7 +59,9 @@
   </script>
   <script  src="/js/utils.js" ></script>
   <script  src="/js/color-schema.js" ></script>
-<meta name="generator" content="Hexo 5.3.0"></head>
+<meta name="generator" content="Hexo 5.3.0"><link rel="stylesheet" href="\assets\css\APlayer.min.css" class="aplayer-style-marker">
+<script src="\assets\js\APlayer.min.js" class="aplayer-script-marker"></script>
+</head>
 
 
 <body>
@@ -187,7 +189,7 @@
     
     <span class="post-meta mr-2">
       <i class="iconfont icon-chart"></i>
-      17 字
+      229 字
     </span>
   
 
@@ -197,7 +199,7 @@
       <i class="iconfont icon-clock-fill"></i>
       
       
-      1
+      3
        分钟
     </span>
   
@@ -240,7 +242,56 @@
 
 </p>
 <p>方法2：<embed src="./name.pdf" width="100%" height="1200" type="application/pdf"></p>
+<h1 id="插入音频"><a href="#插入音频" class="headerlink" title="插入音频"></a>插入音频</h1><p>外链<a target="_blank" rel="noopener" href="http://music.xf1433.com/">http://music.xf1433.com/</a></p>
+<p><a target="_blank" rel="noopener" href="https://mp3.ltyuanfang.cn/">https://mp3.ltyuanfang.cn/</a></p>
+<p>npm install –save hexo-tag-aplayer</p>
 
+			<script>
+				console.error("Error: [hexo-tag-aplayer] Specified asset file not found ([picture_url,)");
+			</script> 
+
+<p>标签参数 </p>
+<p>title : 曲目标题 </p>
+<p>author: 曲目作者 </p>
+<p>url: 音乐文件 URL 地址</p>
+<p>picture_url: (可选) 音乐对应的图片地址 </p>
+<p>narrow: （可选）播放器袖珍风格 </p>
+<p>autoplay: (可选) 自动播放，移动端浏览器暂时不支持此功能 </p>
+<p>width:xxx: (可选) 播放器宽度 (默认: 100%) </p>
+<p>lrc:xxx: （可选）歌词文件 URL 地址</p>
+<p>歌词标签</p>
+<p> 除了使用标签 lrc 选项来设定歌词，你也可以直接使用 aplayerlrc 标签来直接插入歌词文本在博客中：</p>
+ <div id="aplayer-XaEykftQ" class="aplayer aplayer-tag-marker" style="margin-bottom: 20px;">
+				<pre class="aplayer-lrc-content"> 
+
+[00:00.00]lrc here
+
+ </pre>
+			</div>
+			<script>
+				var ap = new APlayer({
+					element: document.getElementById("aplayer-XaEykftQ"),
+					narrow: false,
+					autoplay: true,
+					showlrc: 2,
+					music: {
+						title: "title",
+						author: "author",
+						url: "url",
+						pic: "",
+					}
+				});
+				window.aplayers || (window.aplayers = []);
+				window.aplayers.push(ap);
+			</script>
+
+
+
+<p>播放列表 </p>
+
+			<script>
+				console.error("SyntaxError: Unexpected token ​ in JSON at position 6");
+			</script>
             </div>
             <hr>
             <div>
@@ -263,9 +314,9 @@
                   <article class="post-prev col-6">
                     
                     
-                      <a href="/2030/01/11/hello-world/">
+                      <a href="/2021/04/04/%E7%B2%BE%E7%A5%9E%E5%88%86%E6%9E%90%E5%AE%9E%E8%B7%B5/">
                         <i class="iconfont icon-arrowleft"></i>
-                        <span class="hidden-mobile">博客简介</span>
+                        <span class="hidden-mobile">精神分析实践</span>
                         <span class="visible-mobile">上一篇</span>
                       </a>
                     
